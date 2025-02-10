@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust: using an immutable reference to a value that is modified elsewhere.  The `bug.rs` file contains code that attempts to print the value of an immutable reference after it has been modified, leading to a compilation error. The `bugSolution.rs` demonstrates the corrected version.
